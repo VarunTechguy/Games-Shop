@@ -1,0 +1,151 @@
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Landing Page</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/uikit.min.css" />
+        <link rel="stylesheet" href="css/logo.css" />
+    <script src="js/uikit.min.js"></script>
+    <script src="js/uikit-icons.min.js"></script>
+    <style>
+    </style>
+</head>
+<body>
+    <div class="uk-offcanvas-content">
+        <div class="uk-position-relative">
+
+            <div class="uk-height-max-large" id="home" uk-height-viewport="offset-bottom: 10">
+
+                <video autoplay loop muted playsinline uk-cover>
+                    <source src="vid/BF.mp4" type="video/mp4">
+                </video>
+
+            </div>
+
+            <div class="uk-position-top ">
+                <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky uk-margin; cls-inactive: uk-navbar-transparent uk-light; top: 200; uk-margin" style="padding: 20px; ">
+                    <nav class="uk-navbar-container uk-navbar-transparent uk-animation-slide-top uk-margin" style="border-radius:30px;" uk-navbar>
+                        <div class="uk-navbar-left">
+                            <a class="uk-navbar-toggle" uk-navbar-toggle-icon href="#" uk-toggle="target: #offcanvas-reveal; animation: uk-animation-fade"></a>
+                            <a class="uk-navbar-item uk-logo" href="#"><div class="block gear" style="background: darkgrey;">
+</div></a>
+                            <div id="offcanvas-reveal" uk-offcanvas="mode: reveal; overlay: true">
+                                <div class="uk-offcanvas-bar uk-flex uk-flex-column"
+                                     uk-navbar="dropbar: true; dropbar-mode: push">
+                                    <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+                                        
+                                        <li class="uk-parent">
+                                            <a href="#"></a>
+                                            <ul class="uk-nav-sub">
+                                                <li><a href="web 2/pc.html">PC Games</a></li>
+                                                <li><a href="SPARES AND ACCESORIES/BIKES AND CARS/bikes.html">Console Games</a></li>
+                                            </ul>
+                                        </li>
+                                       
+                                        
+                                         </ul>
+                                    </ul>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="uk-navbar-center">
+                            <ul class="uk-nav uk-nav-default uk-navbar-nav" uk-scrollspy-nav="closest:li; cls:uk-active; scroll: true ; overflow:true;">
+                                <li><a class="uk-button-text" href="../index2.php">Home</a></li>
+                                <li>
+                                    <a class="uk-button-text" href="#DYB">Discover Your Games</a>
+                                </li>
+                                <li><a class="uk-button-text" href="#comparison">Quality</a></li>
+
+
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+
+
+                        <div class="nav-overlay uk-navbar-right">
+
+                            <a class="uk-navbar-toggle" uk-search-icon uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
+
+                        </div>
+
+                        <div class="nav-overlay uk-navbar-left uk-flex-1" hidden>
+
+
+
+                            <a class="uk-navbar-toggle" uk-close uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
+
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="uk-section" style="background-color: grey;">
+            <br />
+            <br />
+            <div class="uk-animation-toggle" uk-scrollspy="cls:uk-animation-fade; delay:100;">
+                <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+                    <ul class="uk-flex-center" uk-tab>
+                        <li class="uk-active"><a href="#" id="DYB"><h2> DISCOVER YOUR CHOICE </h2></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="uk-child-width-expand@s uk-text-center" uk-grid>
+                <div href="#" class="uk-section">
+                    <div class="uk-container uk-container-small uk-text-center">
+                        <br />
+                        <br />
+                        <div class="uk-animation-toggle" uk-scrollspy="cls: uk-animation-slide-left;">
+                            <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+                                <ul class="uk-flex-center" uk-tab>
+                                    <li class="uk-active"><a href="web 2/pc2.html#"><h3>Console Gaming</h3></a></li>
+                                </ul>
+                                <div class="uk-text-center">
+                                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                                      <a href="web 2/pc2.html">  <img class="uk-transition-scale-up uk-transition-opaque" src="image/h2r.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div href="#" class="uk-section">
+                    <div class="uk-container uk-container-small uk-text-center">
+                        <br />
+                        <br />
+                        <div class="uk-animation-toggle" uk-scrollspy="cls: uk-animation-slide-right;">
+                            <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+                                <ul class="uk-flex-center" uk-tab>
+                                    <li class="uk-active"><h3>PC2 Gaming</h3></li>
+                                </ul>
+                                <div class="uk-text-center">
+                                    <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
+                                      <a href="web 2/pc.html">  <img class="uk-transition-scale-up uk-transition-opaque" src="image/img8.jpg" alt=""></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="uk-section">
+            <div class="uk-animation-toggle">
+                <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+                    <ul class="uk-flex-center" uk-tab>
+                        <li class="uk-active"><a href="#" id="comparison"><h2> </h2></a></li>
+						<script src="https://apps.elfsight.com/p/platform.js" defer></script>
+<div class="elfsight-app-039e2ce6-3134-4c89-bba1-d6bec5304802"></div>
+
+                    </ul>
+                    <p class="uk-text-center">Coming Soon....</p>
+                </div>
+            </div>
+            </div>
+        </div>
+</body>
+</html>
