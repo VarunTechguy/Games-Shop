@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+    background-color: #2f3d46;
+  }
+  
+  .logo {
+    background-image: url('acreed.svg');
+    cursor: pointer;
+    background-size: 100%;
+    width: 60px;
+    height:60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*transform:translate(70%,0%);*/
+  }
+  .pa{
+    font-family: "Orbitron", sans-serif;
+    font-weight: 600;
+    font-size:larger;
+    color: #edf0f1;
+    text-decoration: none;
+    transform: translate(-150%,0%);
+  }
+  .nav__links a,
+  .cta,.cart{
+    font-family: "Orbitron", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+  
+  .nav__links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav__links li {
+    padding: 0px 20px;
+  }
+  
+  
+  .nav__links li a {
+    transition: color 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color: #0088a9;
+  }
+  .cta {
+    list-style: none;
+    display: flex;
+  }
+  
+  .cta {
+    padding: 0px 20px;
+  }
+  
+  
+  .cta {
+    transition: color 0.3s ease 0s;
+  }
+  
+  .cta:hover {
+    color: #0088a9;
+  }
+  /*
+  .cta {
+    padding: 9px 25px;
+   
+    border: none;
+    
+    cursor: pointer;
+    transition: background-color 0.3s ease 0s;
+  }
+  
+  .cta:hover {
+    */
+
+  .shop{
+    background-image: url('cart.svg');
+    background-size: 68%;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+    transform: translate(480%, 7%);
+  }
+  
+  /* Mobile Nav */
+  
+  .menu {
+    display: none;
+  }
+  
+  .overlay {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    background-color: #24252a;
+    overflow-x: hidden;
+    transition: width 0.5s ease 0s;
+  }
+  
+  .overlay--active {
+    width: 100%;
+  }
+  
+  .overlay a {
+    padding: 15px;
+    font-size: 36px;
+    display: block;
+    transition: color 0.3s ease 0s;
+  }
+  
+  .overlay a:hover,
+  .overlay a:focus {
+    color: #0088a9;
+  }
+  
+  
