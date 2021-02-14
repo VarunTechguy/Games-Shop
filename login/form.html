@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="lstyle.css">
+    <link rel="stylesheet" href="nav.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h3 id="logo">Game Shop</h3>
+            <ul class="nav-area" id="nav-area">
+                <li><a href="/webf/home/index.html">home</a></li>
+                <li><a href="#">Browse Games</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="window">
+        <div class="maintitle" id="maintitle">
+            <div id="title1" class="title1">
+                <h2>Hello There!</h2>
+                <h1>></h1>
+                <p>If you don't have an account, then you can create it!</p>
+                <button id="signup">Sign up</button>
+            </div>
+
+            <div id="title2" class="title2 hide">
+                <h2>Welcome Back!</h2>
+                <h1><</h1>
+                <p>If you have an account, Sign in!</p>
+                <button id="signin">Sign in</button>
+            </div>
+
+            
+        </div>
+        <div id="loginform" class="loginform">
+            <div id="form1" class="form1">
+                <h2>Login</h2>
+                <p>Enter your username and password</p>
+                <form method="post" action="/webf/login/login.php" >
+                    <ul>
+                        <li><a href="#"></a></li>
+                        <li><a href="##"></a></li>
+                        <li><a href="###"></a></li>
+                    </ul>
+                    <input type="text" name="username" placeholder="Username" required>
+                    <input type="password" name="password" placeholder="Password" required>
+                    <button type="submit" name="login">Login</button>
+                    
+                </form>
+            </div>
+
+            <div id="form2" class="form1 hide">
+                <h2>Sign up</h2>
+                <p>Enter your username and password</p>
+                <form method="post" action="/webf/login/signup.php" >
+                    <ul>
+                        <li><a href="#"></a></li>
+                        <li><a href="##"></a></li>
+                        <li><a href="###"></a></li>
+                    </ul>
+                    <input type="text" name="username" placeholder="Username" required>
+                    <input type="email" name="email" placeholder="Email" required>
+                    <input type="password" name="password" placeholder="Password" minlength="8" required>
+                    <input type="password" name="cpassword" placeholder="Re-type Password" minlength="8" required>
+                    <input type="phone" name="phone" placeholder="Phone" required pattern="[7-9]{1}[0-9]{9}">
+                    <button type="submit" name="register">SignUp</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>

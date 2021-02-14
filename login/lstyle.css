@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    font-family:"Orbitron",sans-serif ;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+ul,li{
+    display: block;
+}
+.hide{
+    display: none;
+}
+.title1 button{
+    font-family:"Pacifico",sans-serif ;
+}
+.title2 button{
+    font-family:"Pacifico",sans-serif ;
+}
+
+.window{
+    width: 800px;
+    height: 500px;
+    background: rgba(255, 255, 255, 0.856);
+    margin: 40px auto 0 auto;
+    border-radius:6px;
+    position:relative;
+    overflow: hidden;
+    display: flex;
+    box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.2);
+}
+
+.maintitle{
+width: 45%;
+height: 100%;
+background: linear-gradient(to right, rgb(20, 103, 199) 0%,rgba(120,173,201,1) 100%);
+position: absolute;
+text-align: center;
+display: flex;
+align-items:center;
+justify-content: center;
+z-index: 1000;
+transition: all.4s;
+}
+
+.maintitle h2{
+    font-size: 2em;
+}
+
+.maintitle p{
+    width: 80%;
+    margin:0 auto;
+    font-weight: 300;
+    margin-top: 15px;
+}
+
+.maintitle button{
+    margin-top:20px;
+    padding: 10px 35px;
+    border-radius: 100px;
+    border: none;
+    outline:none;
+    border: 2px solid #fff;
+    background: none;
+    color: #fff;
+    font-size: 1em;
+    cursor: pointer;
+    transition: all.3s;
+}
+
+.maintitle button:hover{
+    background: #fff;
+    color: rgba(120,173,201,1);
+}
+
+.loginform{
+    background: #fff;
+    width: 55%;
+    height: 100%;
+    position: absolute;
+    right:0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all.4s;
+}
+
+.form1{
+    text-align: center;
+}
+
+.form1 h2{
+    font-size: 2em;
+    color:rgb(41, 146, 202);
+}
+
+.form1 ul{
+    display: flex;
+}
+
+.form1 ul li{
+    width: 50px;
+    height: 50px;
+    background: rgba(120,173,201,1);
+    border-radius: 50px;
+    margin: 10px 10px 0 10px;
+}
+
+.form1 ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.form1 ul li:nth-child(1){
+    background-image: url('fb.svg');
+    background-size: 70%;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    background-position: center;
+}
+
+.form1 ul li:nth-child(2){
+    background-image: url('google.svg');
+    background-size: 70%;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form1 ul li:nth-child(3){
+    background-image: url('linkedin.svg');
+    background-size: 58%;
+    width: 40px;
+    height: 40px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.form1 p{
+    color:#222;
+    margin-top: 30px;
+}
+
+.form1 form{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.form1 form input{
+    width: 110%;
+    height: 38px;
+    background: rgba(204,204,204);
+    border:none;
+    outline: none;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+.form1 form input:hover{
+    background-color: lightseagreen;
+}
+/*login button and signup button*/
+.form1 form button{
+    width: 70%;
+    background: rgba(120,173,201,1);
+    color: rgb(0, 0, 0);
+    font-size: 17px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.form1 form button:hover{
+    background: #fff;
+    color: rgba(120,173,201,1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
