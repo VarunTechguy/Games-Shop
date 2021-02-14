@@ -1,0 +1,125 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-size: 1rem;
+    font-family: "Lato", sans-serif;
+    font-weight: normal;
+    line-height: 1.5;
+    color: #666;
+
+}
+* {
+    box-sizing: border-box;
+}
+
+.bg1, .bg2, .bg3 {
+    position: relative;
+    //opacity: 0.70;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bg1 {
+    background-image: url("..../image/bmw.jpg");
+    min-height: 100%;
+}
+
+.bg2 {
+    background-image: url('../../image/img7.jpg');
+    min-height: 400px;
+}
+
+.bg3 {
+    background-image: url('../../image/img8.jpg');
+    min-height: 400px;
+}
+
+.section {
+    text-align: left;
+    padding: 50px 500px;
+    letter-spacing:2px;
+    line-height:2;
+    word-spacing:2px;
+    width:auto;
+
+}
+
+.section-light {
+    background-color: #f4f4f4;
+    color: #666;
+}
+
+.section-dark {
+    background-color: #282e34;
+    color: #ddd;
+}
+
+.title {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+    .title .border {
+        background-color: #111;
+        color: #fff;
+        padding: 20px;
+    }
+
+        .title .border.trans {
+            background-color: transparent;
+        }
+
+.header-overlay {
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background: #8daec1;
+    opacity: 0.8;
+
+}
+
+.v-header {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: #fff;
+
+}
+
+.container {
+    max-width: 960px;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    margin: auto;
+    text-align: center;
+
+
+}
+
+.header-content {
+
+    z-index: 2;
+}
+
+    .header-content h1 {
+        font-size: 50px;
+        margin-bottom: 0;
+    }
+
+    .header-content p {
+        font-size: 1.5rem;
+        display: block;
+        padding-bottom: 2rem;
+    }
+s
