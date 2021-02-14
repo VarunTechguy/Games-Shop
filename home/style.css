@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+a{
+    text-decoration: none ;
+}
+header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 70px;
+}
+.nav-area{
+    grid-column: 3/3;
+    list-style: none;
+
+}
+.nav-area li{
+    display:inline-block;
+    padding: 0 15px;
+    text-transform: uppercase;
+}
+.nav-area li a{
+    color:#fff;
+}
+.nav-area li a:hover{
+    color:#006c87;
+}
+.btn-area{
+    cursor:pointer;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 7px 22px;
+    border-radius: 12px;
+    background: #006c87;
+}
+.slider{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to left,#3383ce9a, #749ccf);
+    z-index: -1 ;
+}
+
+nav{
+    font-family:"Orbitron",sans-serif ;
+    font-weight: 500;
+    font-size: 16px;
+    display:grid;
+    grid-template-columns: 40% 1fr 100%;
+    min-height: 10vh;
+    color: white;
+    align-items: center;
+}
+
+#logo{
+    grid-column: 1/3;
+    font-size: 24px
+}
+.burger{
+    justify-self: end;
+}
+
+section{
+    display:flex;
+    height:80vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero{
+    width: 100%;
+    height: 60%;
+    position: relative;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.headline{
+    font-family:"Pacifico",sans-serif ;
+    font-weight: 500;
+    font-size: 16px;
+    position: absolute;
+    top: 70%;
+    left: 10%;
+    font-size: 100px;
+    transform: translate(-20%, -70%);
+    color: white;
+    z-index:3;
+}
+
+.hero::after {
+    content: "";
+    background: black;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    opacity: 0.3;
+    top:0;
+}
+
+
+.acreed {
+    background-image: url('../pcgames/acreed.svg');
+    cursor: pointer;
+    background-size: 100%;
+    width: 60px;
+    height:60px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /*transform:translate(70%,0%);*/
+}
