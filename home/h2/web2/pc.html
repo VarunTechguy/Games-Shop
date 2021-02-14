@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Title</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+		<link rel="stylesheet" href="styles.css" />
+        <script src="store.js" async></script>
+    </head>
+    <body bgcolor="#940f0f">
+	
+
+
+	
+	
+	<div class="#home">
+    <div class="uk-offcanvas-content">
+        <div class="uk-position-relative">
+
+            <div class="uk-position-top ">
+                <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky uk-margin; cls-inactive: uk-navbar-transparent uk-light;   top: 200; uk-margin" style="padding: 20px; ">
+                    
+					<nav class="uk-navbar-container uk-navbar-transparent uk-animation-slide-top uk-margin" style="border-radius:30px;" uk-navbar>
+					 
+                        <div class="uk-navbar-center">
+						
+                            <ul class="uk-nav uk-nav-default uk-navbar-nav" uk-scrollspy-nav="closest:li; cls:uk-active; scroll: true ; overflow:true;">
+                                <li><a class="uk-button-text" href="../HomePage.html">Home</a></li>
+                                <li>
+                                    <a class="uk-button-text" href="#DYB">Find Your Game</a>
+                                </li>
+                                <li><a class="uk-button-text" href="#cart">Cart</a></li>
+								
+
+                            </ul>
+							
+					
+						</div>
+					 </nav>		
+                  </div>
+                   
+					
+                </div>
+            </div>
+        </div>
+
+
+          <div class="nav-overlay uk-navbar-right">
+               <a class="uk-navbar-toggle"  href="#"></a>
+          </div>
+
+                        <div class="nav-overlay uk-navbar-left uk-flex-1" hidden>
+                            <a class="uk-navbar-toggle" uk-close uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
+                        </div>
+                    
+          </div>
+	 </div>	  
+		  
+<div class="uk-cover-container">
+    <div class="uk-card uk-card-default uk-card-large uk-card-body">
+      <h3 class="uk-card-title">Top Featured Games</h3>
+      <canvas width="30" height="10"></canvas>
+       <div class="uk-position-relative">
+     
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 16:7;  animation: push" >
+
+         <ul class="uk-slideshow-items">
+           <li>
+             <img src="https://sm.pcmag.com/t/pcmag_in/news/c/cyberpunk-/cyberpunk-2077-delay-results-in-death-threats-against-develo_jbgk.1920.jpg" alt="" uk-cover>
+           </li>
+           <li>
+             <img src="https://i.ytimg.com/vi/SXvQ1nK4oxk/maxresdefault.jpg" alt="" uk-cover>
+           </li>
+           <li>
+             <img src="https://static-01.daraz.pk/p/46cc6bb7db6b95a9fbe0a68b4b83bdea.jpg" alt="" uk-cover>
+           </li>
+         </ul>
+
+         <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+         <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+         </div>   
+      </div>
+     </div>
+</div>
+  
+  <br />
+  <br />
+ 
+        <div class="uk-section" style="background-color: black;">
+            <br />
+            <br />
+            <div class="uk-animation-toggle" uk-scrollspy="cls:uk-animation-fade; delay:100;">
+                <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+                    <ul class="uk-flex-center" uk-tab>
+                        <li class="uk-active"><a href="#" id="DYB"><h2> Find Your Game</h2></a></li>
+                    </ul>
+					
+					<div class="uk-cover-container">
+    <div class="uk-card uk-card-default uk-card-large uk-card-body">
+      <h3 class="uk-card-title">   </h3>
+      <canvas width="30" height="10"></canvas>
+       <section class="container content-section">
+            <h2 class="section-header">Most popular games</h2>
+            <div class="shop-items">
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Cyber-punk 2077</span>
+                     <a href="pc-individual\ind12.html" >  <img class="shop-item-image" src="https://www.cyberpunk.net/build/images/media/screenshots/Cyberpunk2077_Party_at_night_RGB-en-e04dd18a.jpg"></a>
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">3100</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+				<div class="shop-item">
+                    <span class="shop-item-title">Call of duty-WW2</span>
+                    <a href="pc-individual\ind13.html" ><img class="shop-item-image" src="https://www.esquireme.com/public/styles/full_img/public/images/2020/05/27/world-war-2-cod.jpg?itok=06NW6AVW"></a>
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">3500</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Red dead redemption-2</span>
+                    <a href="pc-individual\ind11.html" ><img class="shop-item-image" src="https://store-images.s-microsoft.com/image/apps.58752.68182501197884443.ac728a87-7bc1-4a0d-8bc6-0712072da93c.0cf58754-9802-46f8-8557-8d3ff32a627a?mode=scale&q=90&h=720&w=1280&format=jpg"></a>
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">2800</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">AC: Valahalla</span>
+                    <a href="pc-individual\ind14.html" ><img class="shop-item-image" src="https://www.videogameschronicle.com/files/2020/10/Assassins-Creed-Valhalla-season-pass.jpg"></a>
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">3800</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">WatchDogs Legion</span>
+                    <a href="pc-individual\ind15.html" ><img class="shop-item-image" src="https://store-images.s-microsoft.com/image/apps.27631.65664549497403424.83d4eaf7-af3c-4010-92c1-94e32f4c2cd9.8c821ceb-2ae3-46cb-bd98-c19fde60d6fd?mode=scale&q=90&h=720&w=1280"></a>
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">3100</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+		<hr class="uk-divider-icon">
+		
+		       <section class="container content-section">
+            <h2 class="section-header">Adventure Games</h2>
+            <div class="shop-items">
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Just Cause 4</span>
+                    <img class="shop-item-image" src="https://justcause.square-enix-games.com/images/share/jc4-share.jpg">
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">400</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+				<div class="shop-item">
+                    <span class="shop-item-title">Far Cry:New Dawn </span>
+                    <img class="shop-item-image" src="https://cdn.rapzilla.com/wp-content/uploads/2019/02/far-cry-new-dawn-cover-1500x750.jpg">
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">1500</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">BattleField V</span>
+                    <img class="shop-item-image" src="https://i.ytimg.com/vi/a7ZpQadiyqs/maxresdefault.jpg">
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">3500</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Ghost recon wildlands</span>
+                    <img class="shop-item-image" src="https://steamcdn-a.akamaihd.net/steam/apps/460930/capsule_616x353.jpg?t=1576601517">
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">2100</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Metro Exodus</span>
+                    <img class="shop-item-image" src="https://i.ytimg.com/vi/fbbqlvuovQ0/maxresdefault.jpg">
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">3500</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+		<hr class="uk-divider-icon">
+		
+		       <section class="container content-section">
+            <h2 class="section-header">Bring back your Nostalgic feeling</h2>
+            <div class="shop-items">
+
+                <div class="shop-item">
+                    <span class="shop-item-title">COD:MW Remastered</span>
+                    <img class="shop-item-image" src="https://steamcdn-a.akamaihd.net/steam/apps/393080/capsule_616x353.jpg?t=1501610448">
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">3500</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+				<div class="shop-item">
+                    <span class="shop-item-title">GTA 5</span>
+                    <img class="shop-item-image" src="https://portugalinews.eu/wp-content/uploads/2020/05/gta-v-780x470.jpg">
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">3800</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Outlast</span>
+                    <img class="shop-item-image" src="https://img.redbull.com/images/q_auto,f_auto/redbullcom/2014/03/25/1331641558671_2/outlast-justifies-it%E2%80%99s-horror-quotient.jpg">
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">2800</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                
+                <div class="shop-item">
+                    <span class="shop-item-title">Far cry 3</span>
+                    <img class="shop-item-image" src="https://cdn2.unrealengine.com/Diesel%2Fproductv2%2Ffar-cry-3%2Fdeluxe-edition%2FFC3-dlx-2560x1440-4fa7f35072ee54993b47cf163c2f4f0fd7b1759a.jpg?h=1080&resize=1&w=1920">
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">3500</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+		 <div class="uk-section" style="background-color: white;">
+            <div class="uk-animation-toggle" uk-scrollspy="cls:uk-animation-fade; delay:100;">
+                <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+                    <ul class="uk-flex-center" uk-tab>
+                        <li class="uk-active"><a href="#" id="cart"><h2>CART</h2></a></li>
+                    </ul>
+					
+					<div class="uk-cover-container">
+    <div class="uk-card uk-card-default uk-card-large uk-card-body">
+      <h3 class="uk-card-title">    </h3>
+      <canvas width="30" height="10"></canvas>
+       
+		
+		<section class="container content-section">
+            <h2 class="section-header"></h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">Rs.0</span>
+            </div>
+            <div class="uk-width-1-1">
+						 
+                        
+            </div>
+			 <button class="btn btn-primary btn-purchase" type="button"><a href="./pc-individual/razorpay/checkout.php" class="button">PURCHASE</a></button>
+        </section>
+     </div>
+</div>
+                </div>
+            </div>
+        </div>	
+     </div>
+</div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

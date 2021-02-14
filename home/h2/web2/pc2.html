@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Title</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/uikit.min.css" />
+        <script src="js/uikit.min.js"></script>
+        <script src="js/uikit-icons.min.js"></script>
+		<link rel="stylesheet" href="styles.css" />
+        <script src="store.js" async></script>
+    </head>
+    <body bgcolor="#940f0f">
+	
+
+
+	
+	
+	<div class="#home">
+    <div class="uk-offcanvas-content">
+        <div class="uk-position-relative">
+
+            <div class="uk-position-top ">
+                <div uk-sticky="animation: uk-animation-slide-top; sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky uk-margin; cls-inactive: uk-navbar-transparent uk-light;   top: 200; uk-margin" style="padding: 20px; ">
+                    
+					<nav class="uk-navbar-container uk-navbar-transparent uk-animation-slide-top uk-margin" style="border-radius:30px;" uk-navbar>
+					 
+                        <div class="uk-navbar-center">
+						
+                            <ul class="uk-nav uk-nav-default uk-navbar-nav" uk-scrollspy-nav="closest:li; cls:uk-active; scroll: true ; overflow:true;">
+                                <li><a class="uk-button-text" href="../HomePage.html">Home</a></li>
+                                <li>
+                                    <a class="uk-button-text" href="#DYB">Find Your Game</a>
+                                </li>
+                                <li><a class="uk-button-text" href="#cart">Cart</a></li>
+								
+
+                            </ul>
+							
+					
+						</div>
+					 </nav>		
+                  </div>
+                   
+					
+                </div>
+            </div>
+        </div>
+
+
+          <div class="nav-overlay uk-navbar-right">
+               <a class="uk-navbar-toggle"  href="#"></a>
+          </div>
+
+                        <div class="nav-overlay uk-navbar-left uk-flex-1" hidden>
+                            <a class="uk-navbar-toggle" uk-close uk-toggle="target: .nav-overlay; animation: uk-animation-fade" href="#"></a>
+                        </div>
+                    
+          </div>
+	 </div>	  
+		  
+<div class="uk-cover-container">
+    <div class="uk-card uk-card-default uk-card-large uk-card-body">
+      <h3 class="uk-card-title">Top Featured Games</h3>
+      <canvas width="30" height="10"></canvas>
+       <div class="uk-position-relative">
+     
+        <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="ratio: 16:7;  animation: push" >
+
+         <ul class="uk-slideshow-items">
+           <li>
+             <img src="https://image.api.playstation.com/vulcan/img/rnd/202010/2217/k1laGX3Ita2N6Jlb7BbkHYAr.png" alt="" uk-cover>
+           </li>
+           <li>
+             <img src="https://image.api.playstation.com/vulcan/img/rnd/202011/0714/cKD24Gt2wgE2FeMf5HfqONeV.jpg" alt="" uk-cover>
+           </li>
+           <li>
+             <img src="https://cdn3.dualshockers.com/wp-content/uploads/2014/10/uncharted-4-a-thiefs-end-huge-hero-01-ps4-us-05jun14.jpg" alt="" uk-cover>
+           </li>
+         </ul>
+
+         <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+         <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+         </div>   
+      </div>
+     </div>
+</div>
+  
+  <br />
+  <br />
+ 
+        <div class="uk-section" style="background-color: black;">
+            <br />
+            <br />
+            <div class="uk-animation-toggle" uk-scrollspy="cls:uk-animation-fade; delay:100;">
+                <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+                    <ul class="uk-flex-center" uk-tab>
+                        <li class="uk-active"><a href="#" id="DYB"><h2> Find Your Game</h2></a></li>
+                    </ul>
+					
+					<div class="uk-cover-container">
+    <div class="uk-card uk-card-default uk-card-large uk-card-body">
+      <h3 class="uk-card-title">   </h3>
+      <canvas width="30" height="10"></canvas>
+       <section class="container content-section">
+            <h2 class="section-header">Play Station Exclusive Games</h2>
+            <div class="shop-items">
+
+                <div class="shop-item">
+                    <span class="shop-item-title">God of War</span>
+                    <a href="pc-individual\ind21.html" ><img class="shop-item-image" src="https://d26lpennugtm8s.cloudfront.net/stores/353/484/products/best21-08db9092e74ea8dc9f15857635056196-1024-1024.jpg"></a>
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">3100</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+				<div class="shop-item">
+                    <span class="shop-item-title">Spiderman</span>
+                    <a href="pc-individual\ind22.html" ><img class="shop-item-image" src="https://i.ytimg.com/vi/LTqczRnNqDc/maxresdefault.jpg"></a>
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">3500</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Uncharted 4</span>
+                    <a href="pc-individual\ind23.html" ><img class="shop-item-image" src="https://i.ytimg.com/vi/hh5HV4iic1Y/maxresdefault.jpg"></a>
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">2499</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">The Last of Us</span>
+                    <a href="pc-individual\ind291.html" ><img class="shop-item-image" src="https://i.ytimg.com/vi/W01L70IGBgE/maxresdefault.jpg"></a>
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">2999</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Quantum Break</span>
+                    <img class="shop-item-image" src="https://cdn.cloudflare.steamstatic.com/steam/apps/514800/capsule_616x353.jpg?t=1581629217">
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">2999</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+				  <div class="shop-item">
+                    <span class="shop-item-title">Detroit: Become Human</span>
+                    <img class="shop-item-image" src="https://i.gadgets360cdn.com/large/detroit_become_human_1527241312108.jpg">
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">2999</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+		<hr class="uk-divider-icon">
+		
+		       <section class="container content-section">
+            <h2 class="section-header">Xbox exclusive Games</h2>
+            <div class="shop-items">
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Halo 5: Guardians</span>
+                    <a href="pc-individual\ind24.html" ><img class="shop-item-image" src="https://store-images.s-microsoft.com/image/apps.50236.69279545232152045.f1a4a87c-fcc9-4b7c-a620-f6c56eb2d5ad.f0eeb1d4-a30c-4a21-8bcb-46ed84669b5c?mode=scale&q=90&h=720&w=1280"></a>
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">2299</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+				<div class="shop-item">
+                    <span class="shop-item-title">Gears of War 4</span>
+                    <a href="pc-individual\ind25.html" ><img class="shop-item-image" src="https://mspoweruser.com/wp-content/uploads/2016/09/Gears-of-War-4.png"></a>
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">3299</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Forza Horizon 4</span>
+                    <a href="pc-individual\ind26.html" ><img class="shop-item-image" src="https://images.drivereasy.com/wp-content/uploads/2019/11/2019-11-07_15-29-43-1.jpg"></a>
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">2499</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Sea of Thieves</span>
+                    <a href="pc-individual\ind27.html" ><img class="shop-item-image" src="https://i.ytimg.com/vi/r5JIBaasuE8/maxresdefault.jpg"></a>
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">3999</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">Forza Motorsport 7</span>
+                    <img class="shop-item-image" src="https://nextlevelracing.com/wp-content/uploads/2019/12/Forza-Motorsport-7.jpg">
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">2999</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+		<hr class="uk-divider-icon">
+		
+		       <section class="container content-section">
+            <h2 class="section-header">Best selling Games of the year</h2>
+            <div class="shop-items">
+
+                <div class="shop-item">
+                    <span class="shop-item-title">Red dead redemption-2</span>
+                    <a href="pc-individual\ind28.html" ><img class="shop-item-image" src="https://store-images.s-microsoft.com/image/apps.58752.68182501197884443.ac728a87-7bc1-4a0d-8bc6-0712072da93c.0cf58754-9802-46f8-8557-8d3ff32a627a?mode=scale&q=90&h=720&w=1280&format=jpg"></a>
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">2999</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+				<div class="shop-item">
+                    <span class="shop-item-title">AC:Valahalla</span>
+                    <a href="pc-individual\ind29.html" ><img class="shop-item-image" src="https://www.videogameschronicle.com/files/2020/10/Assassins-Creed-Valhalla-season-pass.jpg"></a>
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">3999</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">PubG</span>
+                    <img class="shop-item-image" src="https://www.techpowerup.com/img/1nWzFAxtZuSxxbTI.jpg">
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">3499</span>
+                        <button class="btn btn-primary shop-item-button"type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                 <div class="shop-item">
+                    <span class="shop-item-title">WatchDogs Legion</span>
+                    <img class="shop-item-image" src="https://store-images.s-microsoft.com/image/apps.27631.65664549497403424.83d4eaf7-af3c-4010-92c1-94e32f4c2cd9.8c821ceb-2ae3-46cb-bd98-c19fde60d6fd?mode=scale&q=90&h=720&w=1280">
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">3999</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="shop-item">
+                    <span class="shop-item-title">rainbow six siege</span>
+                    <img class="shop-item-image" src="https://s2.glbimg.com/SAtwMuvbxau9Jjdo_Hhy46GHM7c=/1200x/smart/filters:cover():strip_icc()/i.s3.glbimg.com/v1/AUTH_08fbf48bc0524877943fe86e43087e7a/internal_photos/bs/2019/O/C/BczSR9SZCBx8Rjz9CMmQ/rainbow-six-siege.jpg">
+                    <div class="shop-item-details">
+                        <span>Rs.</span>
+                        <span class="shop-item-price">2999</span>
+                        <button class="btn btn-primary shop-item-button" type="button">ADD TO CART</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+		
+		 <div class="uk-section" style="background-color: white;">
+            <div class="uk-animation-toggle" uk-scrollspy="cls:uk-animation-fade; delay:100;">
+                <div class="uk-card uk-card-default uk-card-body uk-card-hover">
+                    <ul class="uk-flex-center" uk-tab>
+                        <li class="uk-active"><a href="#" id="cart"><h2>CART</h2></a></li>
+                    </ul>
+					
+					<div class="uk-cover-container">
+    <div class="uk-card uk-card-default uk-card-large uk-card-body">
+      <h3 class="uk-card-title">    </h3>
+      <canvas width="30" height="10"></canvas>
+       
+		
+		<section class="container content-section">
+            <h2 class="section-header"></h2>
+            <div class="cart-row">
+                <span class="cart-item cart-header cart-column">ITEM</span>
+                <span class="cart-price cart-header cart-column">PRICE</span>
+                <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+            </div>
+            <div class="cart-items">
+            </div>
+            <div class="cart-total">
+                <strong class="cart-total-title">Total</strong>
+                <span class="cart-total-price">$0</span>
+            </div>
+            <button class="btn btn-primary btn-purchase" type="button"><a href="./pc-individual/razorpay/checkout.php" class="button">PURCHASE</a></button>
+        </section>
+     </div>
+</div>
+                </div>
+            </div>
+         
+        </div>
+		
+		
+     </div>
+</div>
+                </div>
+            </div>
+         
+        </div>
+ 
+ 
+    
+    
+
+
+    </body>
+</html>
